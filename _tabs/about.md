@@ -26,23 +26,29 @@ Hey there! I'm Devansh, a passionate basketball enthusiast and a tech-freak. Whe
 <!-- On-court Experience -->
 ## ⚖️ On-court Experience
 
-### Data Science Intern - IBM SkillsBuild Initiative, *Remote, Feb. 2024 - Mar. 2024*
+<details>
+<summary>Data Science Intern - IBM SkillsBuild Initiative, Remote, Feb. 2024 - Mar. 2024</summary>
+<br> - Acquired sound technical knowledge of data cleaning and preparation, statistical analysis and data visualization
+<br> - Tested this knowledge on the analysis of a real-world project through a case-study
+<br> - Learned to interpret the results of the analysis and presented them effectively
+<br><br>
+</details>
 
-- Acquired sound technical knowledge of data cleaning and preparation, statistical analysis and data visualization
-- Tested this knowledge on the analysis of a real-world project through a case-study
-- Learned to interpret the results of the analysis and presented them effectively
+<details>
+<summary>Blockchain Developer Apprenticeship - IBC Media, Remote, Aug. 2023 - Oct. 2023</summary>
+<br> - Acquired good working knowledge of the Rust programming language and the Substrate framework
+<br> - Developed a blockchain-based decentralized application (dApp) on Polkadot
+<br> - Keenly absorbed smart contract intricacies and consensus mechanisms
+<br><br>
+</details>
 
-### Blockchain Developer Apprenticeship - IBC Media, *Remote, Aug. 2023 - Oct. 2023*
-
-- Acquired good working knowledge of the Rust programming language and the Substrate framework
-- Developed a blockchain-based decentralized application (dApp) on Polkadot
-- Keenly absorbed smart contract intricacies and consensus mechanisms
-
-### Liaison Officer - G20 Conference on Crime & Security, *Gurugram, July 2023*
-
-- Facilitated collaboration among G20 nations’ representatives
-- Ensured seamless communication on emerging NFT, AI, and Metaverse challenges
-- Fostered collective strategies for global crime and security
+<details>
+<summary>Liaison Officer - G20 Conference on Crime & Security, Gurugram, July 2023</summary>
+<br> - Facilitated collaboration among G20 nations’ representatives
+<br> - Ensured seamless communication on emerging NFT, AI, and Metaverse challenges
+<br> - Fostered collective strategies for global crime and security
+<br><br>
+</details>
 
 <!-- Off-court Experience -->
 ## 🏡 Off-court Experience
@@ -68,7 +74,7 @@ I have always tried to extend my theoretical knowledge to practical experience. 
 <!-- Connect with Me -->
 ## 🤝 Connect with Me
 
-<img src = "/assets/about_assets/connectWithMe.png", alt = "I really have a thing with EAVESDROPPING", width = 180/>
+<img src="/assets/about_assets/connectWithMe.png" alt="Eavesdropping" width="180"/>
 
 Let's talk hoops, code, and everything in between. Connect with me on:
 
@@ -82,9 +88,13 @@ Let's talk hoops, code, and everything in between. Connect with me on:
 
 ### Curiosity Can Land You Into Jail!
 
+Read full story [here](http://primeDevansh.github.io/posts/Curiosity-Can-Land-You-Into-Jail/)
+
 *When I was around 10 or 11 years old, during my flight to Malaysia, I felt a strong curiosity about inflating my life vest. Ignoring the potential consequences, I activated the compressed air canister, causing a loud noise that startled everyone onboard, leading to a sudden silence. The air hostess gave us a stern look and reprimanded my elder sister, who was seated beside me, for allowing me to tamper with the life vest. She even warned that such actions, if done by an adult, could lead to serious consequences, perhaps even jail time. It's a humorous reminder that curiosity, if not handled with caution, can lead to unexpected outcomes!*
 
 ### Crashing Into Success
+
+Read full story [here](http://primeDevansh.github.io/posts/Crashing-Into-Success/)
 
 *On the day of my driving test, disaster struck as I crashed my car into a lamp-post just moments before the exam was scheduled to begin. The rear bumper was left hanging precariously, and the car emitted an alarming noise. Despite my nerves, I decided to proceed with the test. Much to my surprise, not only did I manage to complete the test, but I also passed it with flying cars, uh, oh! I mean flying colours, of course!*
 

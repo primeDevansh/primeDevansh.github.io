@@ -18,7 +18,7 @@ order: 4
 
 <!-- Preview Image/Animation -->
 <p align="center">
-  <img src="https://github.com/primeDevansh/primeDevansh.github.io/tree/main/_tabs/about_assets/meMissingShotsAndHints.gif" alt="Basketball Animation" width="300"/>
+  <img src="about_assets/meMissingShotsAndHints.gif" alt="Basketball Animation" width="300"/>
 </p>
 
 <!-- About Me -->
@@ -52,7 +52,7 @@ Hey there! I'm Devansh, a passionate basketball enthusiast and a tech-freak. Whe
 ## 🏡 Off-court Experience
 
 <p align="center">
-  <img src="thatsHowIDoIT.gif" alt="My fav experimentalist" width="300"/>
+  <img src="about_assets/thatsHowIDoIT.gif" alt="My fav experimentalist" width="300"/>
 </p>
 
 I have always tried to extend my theoretical knowledge to practical experience. I've been playing around with Arduino and Raspberry Pi's since the age of 14 - learning, applying, breaking, fixing, un-learning, re-learning and everything in between. Apart from this, I have been actively engaged with networking components such as unmanaged and managed switches, CAT5/6 cables, routers, and access points, and networking protocols like RTMP that I have used for local live video and audio streaming. Whether it's configuring network devices or setting up local media servers at home for seamless multi-device access, I am driven by the curiosity to explore the capabilities of interconnected systems.
@@ -69,18 +69,18 @@ I have always tried to extend my theoretical knowledge to practical experience. 
 
 <!--
 <p align = "center">
-  <img src = "proudOfYou.gif", alt = "There's more to come!", width = "200">
+  <img src = "about_assets/proudOfYou.gif", alt = "There's more to come!", width = "200">
 </p>
 -->
-- 🏆 Won the 3rd Position (team participation) in <a href = "nasscomFoundation3rdPosition.png">Nasscom Foundation's Ideathon Challenge</a>
-- 🌟 My team was among 16 finalists selected from over 500 teams in <a href = "iiitdImaginationHackathon.png">IIIT Delhi's Imagi-n-ation Hackathon</a>. Although we didn't win, we made it to the final round
-- 🏆 Won the 3rd Position (individual participation) in <a href = "ieeeTrickyCircuits3rdPosition.pdf">IEEE Tricky Circuits Competition</a>
+- 🏆 Won the 3rd Position (team participation) in [Nasscom Foundation's Ideathon Challenge](about_assets/nasscomFoundation3rdPosition.png)
+- 🌟 My team was among 16 finalists selected from over 500 teams in [IIIT Delhi's Imagi-n-ation Hackathon](about_assets/iiitdImaginationHackathon.png). Although we didn't win, we made it to the final round
+- 🏆 Won the 3rd Position (individual participation) in [IEEE Tricky Circuits Competition](about_assets/ieeeTrickyCircuits3rdPosition.pdf)
 
 <!-- Connect with Me -->
 ## 🤝 Connect with Me
 
 <p align = "center">
-  <img src = "connectWithMe.png", alt = "I really have a thing with EAVESDROPPING", width = 180>
+  <img src = "about_assets/connectWithMe.png", alt = "I really have a thing with EAVESDROPPING", width = 180>
 </p>
 
 Let's talk hoops, code, and everything in between. Connect with me on:

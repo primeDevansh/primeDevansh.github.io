@@ -18,7 +18,7 @@ order: 4
 
 <!-- Preview Image/Animation -->
 <p align="center">
-  <img src="./meMissingShotsAndHints.gif" alt="Basketball Animation" width="300"/>
+  <img src="https://github.com/primeDevansh/primeDevansh.github.io/tree/main/_tabs/about_assets/meMissingShotsAndHints.gif" alt="Basketball Animation" width="300"/>
 </p>
 
 <!-- About Me -->

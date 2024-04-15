@@ -20,7 +20,7 @@ order: 4
 <!-- About Me -->
 ## 🙋‍♂️ About Me
 
-Hey there! I'm Devansh, a passionate basketball enthusiast and a tech-freak. When I'm not dunking code, you'll find me shooting hoops on the basketball court or cheering for my favorite team. I think it's important to master the basics to achieve big things, and I use this idea when I face challenges. I prefer to keep things simple. Apart from my tech interests, I also keep up with world events and how technology affects the world.
+Hey there! I'm Devansh Rastogi, a passionate basketball enthusiast and a tech-freak. When I'm not dunking code, you'll find me shooting hoops on the basketball court or cheering for my favorite team. I think it's important to master the basics to achieve big things, and I use this idea when I face challenges. I prefer to keep things simple. Apart from my tech interests, I also keep up with world events and how technology affects the world.
 <!--I like to work in solitude as well as in team/groups but I think that progress happens in solitude - when your are just with yourself -->
 
 <!-- On-court Experience -->

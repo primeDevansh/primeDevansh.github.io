@@ -88,14 +88,14 @@ Let's talk hoops, code, and everything in between. Connect with me on:
 
 ### Curiosity Can Land You Into Jail!
 
-<!-- Read full story [here](http://primeDevansh.github.io/posts/Curiosity-Can-Land-You-Into-Jail/) -->
+Read full story [here](http://primeDevansh.github.io/posts/Curiosity-Can-Land-You-Into-Jail/)
 
 *When I was around 10 or 11 years old, during my flight to Malaysia, I felt a strong curiosity about inflating my life vest. Ignoring the potential consequences, I activated the compressed air canister, causing a loud noise that startled everyone onboard, leading to a sudden silence. The air hostess gave us a stern look and reprimanded my elder sister, who was seated beside me, for allowing me to tamper with the life vest. She even warned that such actions, if done by an adult, could lead to serious consequences, perhaps even jail time. It's a humorous reminder that curiosity, if not handled with caution, can lead to unexpected outcomes!*
 
 ### Crashing Into Success
 
-<!-- Read full story [here](http://primeDevansh.github.io/posts/Crashing-Into-Success/)
--->
+Read full story [here](http://primeDevansh.github.io/posts/Crashing-Into-Success/)
+
 *On the day of my driving test, disaster struck as I crashed my car into a lamp-post just moments before the exam was scheduled to begin. The rear bumper was left hanging precariously, and the car emitted an alarming noise. Despite my nerves, I decided to proceed with the test. Much to my surprise, not only did I manage to complete the test, but I also passed it with flying cars, uh, oh! I mean flying colours, of course!*
 
 

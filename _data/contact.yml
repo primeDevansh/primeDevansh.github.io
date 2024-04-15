@@ -3,16 +3,25 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://linkedin.com/in/rastogidevansh' # Fill with your Linkedin homepage
+
+- type: instagram
+  icon: "fa-brands fa-instagram"
+  url: "https://instagram.com/r6.devansh"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

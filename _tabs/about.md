@@ -68,7 +68,7 @@ I have always tried to extend my theoretical knowledge to practical experience. 
 ## 🏀 Hoop Highlights
 
 - 🏆 Won the 3rd Position (team participation) in [Nasscom Foundation's Ideathon Challenge](/assets/about_assets/nasscomFoundation3rdPosition.jpg)
-- 🌟 My team was among 16 finalists selected from over 500 teams in [IIIT Delhi's Imagi-n-ation Hackathon](/assets/about_assets/iiitdImaginationHackathon.png). Although we didn't win, we made it to the final round
+- 🌟 My team was among 16 finalists selected from over 500 teams in [IIIT Delhi's Imagi-n-ation Hackathon](/assets/about_assets/iiitdImaginationHackathon_WithCertificate.png). Although we didn't win, we made it to the final round
 - 🏆 Won the 3rd Position (individual participation) in [IEEE Tricky Circuits Competition](/assets/about_assets/ieeeTrickyCircuits3rdPosition.pdf)
 
 <!-- Connect with Me -->

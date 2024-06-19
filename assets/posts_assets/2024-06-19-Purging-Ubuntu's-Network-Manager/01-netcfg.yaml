@@ -1,0 +1,12 @@
+network:
+  version: 2
+  ethernets:
+    enp4s0:                 # REPLACE enp4s0 with the intended interface name
+      dhcp4: no           	# Disable DHCP for IPv4
+      addresses:
+        - 192.168.22.130/20 	# The static IPv4 address combined with subnet mask
+      gateway4: 192.168.16.11 	# Your gateway (router) IP address
+      nameservers:
+        addresses:
+          - 8.8.8.8        # Primary DNS server (Google DNS)
+          - 8.8.4.4        # Secondary DNS server (Google DNS)

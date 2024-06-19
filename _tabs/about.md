@@ -26,6 +26,16 @@ Hey there! I'm Devansh Rastogi, a passionate basketball enthusiast and a tech-fr
 <!-- On-court Experience -->
 ## ⚖️ On-court Experience
 
+*To read about my latest experience and recent advancements in my career, please prefer my [LinkedIn profile](https://linkedin.com/in/rastogidevansh).*
+
+<details>
+<summary>Research Intern - IIIT Delhi, On-site, May 2024 - Present</summary>
+<br> - Worked in the Networked Systems and Security Lab
+<br> - Gained practical insights into the network traffic patterns generated while AI & ML model training
+<br> - Learned to interpret the results of the analysis and presented them effectively
+<br><br>
+</details>
+
 <details>
 <summary>Data Science Intern - IBM SkillsBuild Initiative, Remote, Feb. 2024 - Mar. 2024</summary>
 <br> - Acquired sound technical knowledge of data cleaning and preparation, statistical analysis and data visualization

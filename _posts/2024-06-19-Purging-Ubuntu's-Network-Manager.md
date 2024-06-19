@@ -5,7 +5,7 @@ categories: [tutorial] # thoughts can be another category
 tags: [networking, linux, networkmanager, purge] # make sure its always lower case
 ---
 
-*For latest updates and download all recent relevant files, please refer GH repository [here](https://github.com/primeDevansh/purgeNetworkManager/tree/main).*
+*For latest updates and to download all recent relevant files, please refer GH repository [here](https://github.com/primeDevansh/purgeNetworkManager/tree/main).*
 
 # Purge Network Manager and Hardcode Network Configurations
 

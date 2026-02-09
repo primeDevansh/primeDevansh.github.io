@@ -1,8 +1,8 @@
 ---
-title: "Live and In-Person: My Experience of PM Modi Launching 5G!"
-date: 2023-10-24 08:21 +530
-categories: [blog] # thoughts can be another category
-tags: [5g, networking] # make sure its always lower case
+title: "Live and in-person: My experience of PM Modi launching 5G"
+date: 2023-10-24 23:11 +530
+categories: [Experiences, Events] # thoughts can be another category
+tags: [technology, 5g] # make sure its always lower case
 ---
 
 ![5G Launch in India](https://media.licdn.com/dms/image/D5612AQEq0obeY2FJWw/article-cover_image-shrink_720_1280/0/1713169393193?e=1718841600&v=beta&t=x629QBVpWXI9hJmamUaMAN0pop2bnwBJdFoRd8M62x8)

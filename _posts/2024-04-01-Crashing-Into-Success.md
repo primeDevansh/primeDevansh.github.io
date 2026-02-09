@@ -1,8 +1,8 @@
 ---
-title: "Crashing Into Success!"
-date: 2024-04-01 08:21 +530
-categories: [personal-experience] # thoughts can be another category
-tags: [failure, driving, success] # make sure its always lower case
+title: "Crashing into success"
+date: 2024-04-01 23:11 +530
+categories: [Reflections] # thoughts can be another category
+tags: [failure, driving, resilience] # make sure its always lower case
 ---
 
 Have you ever had a moment where everything seemed to go wrong, but somehow, you still managed to come out on top? Well, let me tell you about the time I had my driving test and ended up crashing my car into a lamp-post right before it was supposed to start. It was a total disaster—the rear bumper was hanging off, and my car was making all sorts of strange noises. I was incredibly nervous, but I decided to push through and take the test anyway.

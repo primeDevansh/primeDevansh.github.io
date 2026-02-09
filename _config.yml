@@ -16,7 +16,7 @@ timezone: Asia/Calcutta
 
 title: Devansh Rastogi # the main title
 
-tagline: Showcasing my game, groove, and grind! # it will display as the sub-title
+tagline: My library # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
  This is my personal-portfolio website. I also intend to use it for blogging.
@@ -38,7 +38,7 @@ social:
   email: devansh_rastogi@icloud.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://instagram.com/couchhtomato # change to your twitter homepage
+    - https://instagram.com/devanshrastogi01 # change to your twitter homepage
     - https://github.com/primeDevansh # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username

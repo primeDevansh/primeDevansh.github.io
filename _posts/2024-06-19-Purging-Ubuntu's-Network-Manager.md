@@ -1,8 +1,8 @@
 ---
 title: "Purging Ubuntu's Network Manager"
-date: 2024-06-19 13:30 +530
-categories: [tutorial] # thoughts can be another category
-tags: [networking, linux, networkmanager, purge] # make sure its always lower case
+date: 2024-06-19 23:11 +530
+categories: [Technology, Tutorial] # thoughts can be another category
+tags: [troubleshooting, networking, linux, ubuntu] # make sure its always lower case
 ---
 
 *For latest updates and to download all recent relevant files, please refer GH repository [here](https://github.com/primeDevansh/purgeNetworkManager/tree/main).*

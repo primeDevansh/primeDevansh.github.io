@@ -1,8 +1,8 @@
 ---
-title: "What it was like to Volunteer at a G20 Conference!"
-date: 2023-10-31 08:21 +530
-categories: [blog] # thoughts can be another category
-tags: [volunteering, strategic-communication, communication-skills] # make sure its always lower case
+title: "What it was like to volunteer at a G20 conference"
+date: 2023-10-31 23:11 +530
+categories: [Experiences, Events] # thoughts can be another category
+tags: [leadership, liaison, strategic-communication] # make sure its always lower case
 ---
 
 ![Volunteering at a G20 Conference](https://media.licdn.com/dms/image/D4D12AQF5Rdg56nzYMQ/article-cover_image-shrink_720_1280/0/1698752378601?e=1718841600&v=beta&t=O57mxfdDt6d9BZM9L-OEgxQ3zi09QyK_aSM7YRx2kA8)

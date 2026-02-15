@@ -7,7 +7,7 @@ media_subpath: /assets/Posts/2023-10-24-Live-and-in---person-My-experience-of-PM
 image: 
   lqip: CoverPicture.jpeg
   path: CoverPicture.jpeg
-  alt: India Mobile Congress, Pragati Maidan, New Delhi
+  alt: India Mobile Congress at Pragati Maidan, New Delhi
 ---
 
 To experience first-hand our honourable Prime Minister Shri Narendra Modi Ji, along with giants like Mukesh Ambani and Sunil Bharti Mittal to launch 5G services in India was a completely different feel and a very proud moment to witness live. I have included here some video recordings of the same.
@@ -32,4 +32,4 @@ And of course, as always, PM Modi's speech was flawless and had the crowd cheeri
 It was a real pleasure attending IMC 2022.
 
 ![LongShot](LongShot.jpeg){: .shadow}
-_A behind the scenes shot_
+_A behind the scenes look_

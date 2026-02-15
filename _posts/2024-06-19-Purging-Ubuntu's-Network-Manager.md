@@ -3,6 +3,11 @@ title: "Purging Ubuntu's Network Manager"
 date: 2024-06-19 23:11 +530
 categories: [Technology, Tutorial] # thoughts can be another category
 tags: [troubleshooting, networking, linux, ubuntu] # make sure its always lower case
+media_subpath: /assets/Posts/2024-06-19-Purging-Ubuntu's-Network-Manager/
+image: 
+  lqip: CoverPicture.webp
+  path: CoverPicture.webp
+  alt: Image by Phuttharak Chindarot on Dreamstime.com
 ---
 
 *For latest updates and to download all recent relevant files, please refer GH repository [here](https://github.com/primeDevansh/purgeNetworkManager/tree/main).*
@@ -52,7 +57,7 @@ Netplan is a utility developed by Canonical, the company behind Ubuntu. It is us
 
     > The IP address (192.168.22.130) also contains the subnet (/20) associated with it. Make sure to add it properly as shown below. **Also make sure to follow proper indentation as well because we are dealing with a .yaml file**
 
-    Here's the configuration file we used: [01-netcfg.yaml](/assets/posts_assets/2024-06-19-Purging-Ubuntu's-Network-Manager/01-netcfg.yaml)
+    Here's the configuration file we used: [01-netcfg.yaml](/assets/Posts/2024-06-19-Purging-Ubuntu's-Network-Manager/01-netcfg.yaml)
 
     ```yaml
     network:
@@ -121,7 +126,7 @@ The steps to purge network manager depends on the desktop environment. Once the 
         nmcli device
         ```
 
-        ![NM is not running](/assets/posts_assets/2024-06-19-Purging-Ubuntu's-Network-Manager/nmcli_device.png)
+        ![NM is not running](nmcli_device.png)
 
     Now, disable network manager (permanently) to avoid it restarting after a reboot:
 

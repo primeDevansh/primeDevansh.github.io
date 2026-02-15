@@ -3,9 +3,12 @@ title: "What it was like to volunteer at a G20 conference"
 date: 2023-10-31 23:11 +530
 categories: [Experiences, Events] # thoughts can be another category
 tags: [leadership, liaison, strategic-communication] # make sure its always lower case
+media_subpath: /assets/Posts/2023-10-31-What-it-was-like-to-volunteer-at-a-G20-conference/
+image: 
+  lqip: CoverPicture.jpeg
+  path: CoverPicture.jpeg
+  alt: G20 Conference On Crime And Security In The Age of NFTs, AI and Metaverse at Hyatt Regency, Gurugram, Haryana
 ---
-
-![Volunteering at a G20 Conference](https://media.licdn.com/dms/image/D4D12AQF5Rdg56nzYMQ/article-cover_image-shrink_720_1280/0/1698752378601?e=1718841600&v=beta&t=O57mxfdDt6d9BZM9L-OEgxQ3zi09QyK_aSM7YRx2kA8)
 
 Being in a college gives you so many opportunities to interact and network with the world around you. With the G20 Summit in India in 2023, students from around the country got the chance to get a complete one of a kind experience. 
 
@@ -21,6 +24,5 @@ During the conference, delegates from G20 countries, invitee countries, internat
 
 On top of it all, I had a great experience being a liaison officer with other students from esteemed institutions like IIT Madras. Our primary role was to liaise between two or more organisations to communicate and coordinate their activities on a matter of mutual concern. And not to mention, I made so many friends and got to know so much about each other. But, as always is the case with me, I enjoyed the food the most :p
 
-![Hi! It's me!](https://media.licdn.com/dms/image/D4D12AQGbjPWd_vSheA/article-inline_image-shrink_1000_1488/0/1698760864833?e=1718841600&v=beta&t=HzZ3kBZSkw2EsnuQ8eFQIv8OFU8Ao0mJXCltemTC2lw)
-
-Some of the excerpts used above have been picked up from this [article](https://newsonair.gov.in/News?title=G20-Conference-on-Crime-and-Security-in-the-Age-of-NFTs%2C-AI-%26-Metaverse-held-in-Gurugram-successfully-concludes&id=464200).
+![MrDevanshRastogiInTheBallroom](MrDevanshRastogiInTheBallroom.jpeg){: w="400" .shadow}
+_That young, shy me being camera-conscious_

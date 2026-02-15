@@ -110,5 +110,5 @@ Let's talk hoops, code, and everything in between. Connect with me on:
 <!-- Did you know? The first basketball game was played with a soccer ball and two peach baskets. Talk about a slam dunk in creativity! -->
 
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+<!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip } -->

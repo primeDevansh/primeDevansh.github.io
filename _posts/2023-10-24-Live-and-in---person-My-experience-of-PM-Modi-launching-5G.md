@@ -3,9 +3,12 @@ title: "Live and in-person: My experience of PM Modi launching 5G"
 date: 2023-10-24 23:11 +530
 categories: [Experiences, Events] # thoughts can be another category
 tags: [technology, 5g] # make sure its always lower case
+media_subpath: /assets/Posts/2023-10-24-Live-and-in---person-My-experience-of-PM-Modi-launching-5G/
+image: 
+  lqip: CoverPicture.jpeg
+  path: CoverPicture.jpeg
+  alt: India Mobile Congress, Pragati Maidan, New Delhi
 ---
-
-![5G Launch in India](https://media.licdn.com/dms/image/D5612AQEq0obeY2FJWw/article-cover_image-shrink_720_1280/0/1713169393193?e=1718841600&v=beta&t=x629QBVpWXI9hJmamUaMAN0pop2bnwBJdFoRd8M62x8)
 
 To experience first-hand our honourable Prime Minister Shri Narendra Modi Ji, along with giants like Mukesh Ambani and Sunil Bharti Mittal to launch 5G services in India was a completely different feel and a very proud moment to witness live. I have included here some video recordings of the same.
 
@@ -28,4 +31,5 @@ And of course, as always, PM Modi's speech was flawless and had the crowd cheeri
 
 It was a real pleasure attending IMC 2022.
 
-![IMC 2022 - A Great Experience](https://media.licdn.com/dms/image/D5612AQGKwpmtvquuaQ/article-inline_image-shrink_1000_1488/0/1698091887224?e=1718841600&v=beta&t=kCHcboeduW0f9koas19tKlPS2zzGwOTaHneKFA860VA)
+![LongShot](LongShot.jpeg){: .shadow}
+_A behind the scenes shot_

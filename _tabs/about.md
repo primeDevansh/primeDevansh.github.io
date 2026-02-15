@@ -108,21 +108,3 @@ Let's talk hoops, code, and everything in between. Connect with me on:
 <!-- I am unable to hyperlink this - Read full story [here](/_posts/2024-04-01-Crashing-Into-Success.md) -->
 
 <!-- Did you know? The first basketball game was played with a soccer ball and two peach baskets. Talk about a slam dunk in creativity! -->
-
-<!-- TESTING -->
-
-<style>
-@keyframes float {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-}
-.moving-tile {
-  animation: float 2s ease-in-out infinite;
-}
-</style>
-
-<img src="/assets/img/favicons/android-chrome-192x192.png" class="moving-tile" width="200">
-
-
-### Testing Environment

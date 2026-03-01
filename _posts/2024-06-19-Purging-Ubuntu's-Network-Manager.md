@@ -10,13 +10,10 @@ image:
   alt: Image by Phuttharak Chindarot on Dreamstime.com
 ---
 
-*For latest updates and to download all recent relevant files, please refer GH repository [here](https://github.com/primeDevansh/purgeNetworkManager/tree/main).*
-
 # Purge Network Manager and Hardcode Network Configurations
 
-> Intended for Ubuntu Desktop 20.04 LTS and later versions.
-
-> Implemented on Ubuntu Desktop 20.04 LTS (Focal Fossa).
+> Intended for Ubuntu Desktop 20.04 LTS and later versions. Implemented on Ubuntu Desktop 20.04 LTS (Focal Fossa).
+{: .prompt-info }
 
 When you want to purge the Network Manager on Ubuntu 20.04 and hardcode the network configuration, you should follow these steps in order:
 
@@ -28,36 +25,42 @@ When you want to purge the Network Manager on Ubuntu 20.04 and hardcode the netw
 
 We will be using **Netplan** to setup (hardcode) network interfaces.
 
-Netplan is a utility developed by Canonical, the company behind Ubuntu. It is used to setup network interfaces on recent versions of Ubuntu. It provides a network configuration abstraction over the currently supported two “backend” system (“renderer” in Netplan terminology): networkd and NetworkManager. Using Netplan, both physical and virtual network interfaces are configured via yaml files which are translated to configurations compatible with the selected backend. ([Netplan network configuration tutorial for beginners](https://linuxconfig.org/netplan-network-configuration-tutorial-for-beginners))
+> Netplan is a utility developed by Canonical, the company behind Ubuntu. It is used to setup network interfaces on recent versions of Ubuntu. It provides a network configuration abstraction over the currently supported two “backend” system (“renderer” in Netplan terminology): networkd and NetworkManager. Using Netplan, both physical and virtual network interfaces are configured via yaml files which are translated to configurations compatible with the selected backend.[^footnote1]
+{: .prompt-info }
 
 ## Detailed Steps
 
 ### Step 1: Hardcoding the Network Configuration
 
-1. Identify your network interface: Use the 
-    ```bash
+1. Identify your network interface: Use the...
+    ```shell
     ip a
     ```
     or 
-    ```bash
+    ```shell
     ifconfig
     ```
-    command to identify your network interface name (e.g., eth0, enp0s3, etc.).
+    ...command to identify your network interface name (e.g., eth0, enp0s3, etc.).
     *In our case, we configured enp4s0 network interface.*
 
-    > **Note down ALL the configurations (IP addr, subnet, router, gateway) associated with your target interface. They will be used later when we'd hardcode the network configuration.**
+    > Note down ALL the configurations (IP addr, subnet, router, gateway) associated with your target interface. They will be used later when we'd hardcode the network configuration.
+    {: .prompt-tip}
 
 2. Edit the /etc/netplan/01-netcfg.yaml file (or create it if it does not exist):
 
     ```bash
     sudo nano /etc/netplan/01-netcfg.yaml
     ```
+    {: file='/etc/netplan/01-netcfg.yaml'}
 
 3. Add your static network configuration: **Replace** enp4s0 with your actual network interface name and configure the IP address, gateway, and DNS servers as needed. 
 
-    > The IP address (192.168.22.130) also contains the subnet (/20) associated with it. Make sure to add it properly as shown below. **Also make sure to follow proper indentation as well because we are dealing with a .yaml file**
+    > The IP address (192.168.22.130) also contains the subnet (/20) associated with it. Make sure to add it properly as shown below.
+    {: .prompt-info}
+    > Also make sure to follow proper indentation as well because we are dealing with a .yaml file
+    {: .prompt-warning}
 
-    Here's the configuration file we used: [01-netcfg.yaml](/assets/Posts/2024-06-19-Purging-Ubuntu's-Network-Manager/01-netcfg.yaml)
+    Here's the configuration we used:
 
     ```yaml
     network:
@@ -73,6 +76,7 @@ Netplan is a utility developed by Canonical, the company behind Ubuntu. It is us
               - 8.8.8.8        # Primary DNS server (Google DNS)
               - 8.8.4.4        # Secondary DNS server (Google DNS)
     ```
+    {: file='/etc/netplan/01-netcfg.yaml'}
 
 4. Disable the existing netplan file: You can disable the 01-network-manager-all.yaml file by renaming it, which effectively prevents it from being applied.
 
@@ -80,20 +84,32 @@ Netplan is a utility developed by Canonical, the company behind Ubuntu. It is us
     sudo mv /etc/netplan/01-network-manager-all.yaml /etc/netplan/01-network-manager-all.yaml.bak
     ```
 
-5. Apply the configurations
+5. Apply the configurations:
 
     ```bash
     sudo netplan apply
     ```
 
-6. Verify the network configuration: Ensure you can still connect to the network. You can use ping, curl, or any other network tool to verify the connectivity.
+6. Restart your system:
 
-    - Make sure to test the internet connectivity.
-    - Make sure to test local access through ssh.
+    ```shell
+    sudo restart
+    ```
 
-### Step 2: Purging the Network Manager
+    > This ensures the new yaml config is applied and used for network connectivity.
+    {: .prompt-info}
 
-The steps to purge network manager depends on the desktop environment. Once the static network configuration is **confirmed** to be working, you can safely remove the Network Manager. 
+7. Verify the network configuration: Ensure you can still connect to the network. You can use ping, curl, or any other network tool to verify the connectivity.
+
+    > Make sure to properly test the network access (internet/local connectivity).
+    {: .prompt-warning}
+
+### Step 2: Purging the Network Manager[^footnote2] [^footnote3]
+
+> The exact steps to purge network manager depends on the desktop environment.
+{: .prompt-info}
+
+Once you have tested the network connectivity, you can safely remove the Network Manager. 
 
 1. For Ubuntu MATE 18.04 LTS and 20.04 LTS purging network-manager package is safe. You can simply run:
 
@@ -101,10 +117,9 @@ The steps to purge network manager depends on the desktop environment. Once the 
     sudo apt-get purge network-manager
     ```
 
-2. For Ubuntu 18.04 LTS and 20.04 LTS with GNOME desktop (**our case**) purging network-manager package will also purge ubuntu-desktop and gnome-control-center (essential part of GNOME desktop). So it is not an option.
+2. For Ubuntu 18.04 LTS and 20.04 LTS with GNOME desktop (**our case**) purging network-manager package will also purge ubuntu-desktop and gnome-control-center (essential part of GNOME desktop). So it is not an option. We'll follow a 3-step procedure as described below:
 
-    Here you should stop NetworkManager and some other services:
-
+    1. Here you should stop NetworkManager and some other services:
     ```bash
     sudo systemctl stop NetworkManager.service
     sudo systemctl stop NetworkManager-wait-online.service
@@ -112,40 +127,33 @@ The steps to purge network manager depends on the desktop environment. Once the 
     sudo systemctl stop network-manager.service
     ```
 
-    **Check for the status of Network Manager if it is still running. This can be done in either of the 2 ways described below:**
+    2. Check for the status of Network Manager if it is still running. This can be done in either of the 2 ways described below:
+       - Open System Settings > Network
+        :   If it shows an error opening network settings, network manager has been successfully disabled.
 
-    - Open System Settings > Network
+       OR 
 
-        If it shows an error opening network settings, network manager has been successfully disabled.
+       - Through command line
+        :   ```bash
+            nmcli device
+            # Expected output
+            Error: NetworkManager is not running.
+            ```
+    
+    3. Now, disable network manager (permanently) to avoid it restarting after a reboot:
 
-    OR 
-
-    - Through command line
-
-        ```bash
-        nmcli device
-        ```
-
-        ![NM is not running](nmcli_device.png)
-
-    Now, disable network manager (permanently) to avoid it restarting after a reboot:
-
-    ```bash
-    sudo systemctl disable NetworkManager.service
-    sudo systemctl disable NetworkManager-wait-online.service
-    sudo systemctl disable NetworkManager-dispatcher.service
-    sudo systemctl disable network-manager.service
-    ```
-
-Referenced from:
-
-([How do I disable network manager permanently?](https://askubuntu.com/questions/1091653/how-do-i-disable-network-manager-permanently))
-
-([Stopping and Disabling NetworkManager](https://help.ubuntu.com/community/NetworkManager#Stopping_and_Disabling_NetworkManager))
+       ```bash
+       sudo systemctl disable NetworkManager.service
+       sudo systemctl disable NetworkManager-wait-online.service
+       sudo systemctl disable NetworkManager-dispatcher.service
+       sudo systemctl disable network-manager.service
+       ```
 
 ### Step 3: Rebooting the System & Final Verification
 
-1. Reboot your system: Make sure to reboot your system into the **same** OS.
+1. Reboot your system:
+   > Make sure to reboot your system into the **same** OS in case you have multiple OS's on your system.
+   {: .prompt-warning}
 
     ```bash
     sudo reboot
@@ -153,9 +161,13 @@ Referenced from:
 
 2. **Re-verify the network configuration**: Make sure to re-verify the network configuration once again as done previously as well. Ensure you can still connect to the network. You can use ping, curl, or any other network tool to verify the connectivity.
 
-    - Make sure to test the internet connectivity.
-    - Make sure to test local access through ssh.
-
 3. Re-verify Network Manager's status: Check if Network Manager is running or not. This can be done following the steps as described before.
 
 > Congratulations! If you've made it till here, you've successfully purged Network Manager and hardcoded the network configurations.
+{: .prompt-tip}
+
+## References
+
+[^footnote1]: [Netplan network configuration tutorial for beginners](https://linuxconfig.org/netplan-network-configuration-tutorial-for-beginners)
+[^footnote2]: [How do I disable network manager permanently?](https://askubuntu.com/questions/1091653/how-do-i-disable-network-manager-permanently)
+[^footnote3]: [Stopping and Disabling NetworkManager](https://help.ubuntu.com/community/NetworkManager#Stopping_and_Disabling_NetworkManager)

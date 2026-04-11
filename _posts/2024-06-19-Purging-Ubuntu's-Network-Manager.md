@@ -166,6 +166,8 @@ Once you have tested the network connectivity, you can safely remove the Network
 > Congratulations! If you've made it till here, you've successfully purged Network Manager and hardcoded the network configurations.
 {: .prompt-tip}
 
+![FromTheLibraryOfDevansh](../../Global/stamp_FromTheLibraryOfDevansh.png){: width="150" .right}
+
 ## References
 
 [^footnote1]: [Netplan network configuration tutorial for beginners](https://linuxconfig.org/netplan-network-configuration-tutorial-for-beginners)

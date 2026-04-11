@@ -14,4 +14,5 @@ Let me tell you about a flight I'll never forget. It was a trip to Malaysia when
 
 As soon as I activated the life vest, a loud noise echoed through the cabin, startling everyone on board. The sudden silence that followed was deafening. The air hostess shot us a stern look, and my older sister, who was sitting beside me, received a scolding for allowing my curiosity to get the better of me. In that moment, I realized the consequences of my actions and how they could have been much worse.
 
+![FromTheLibraryOfDevansh](../../Global/stamp_FromTheLibraryOfDevansh.png){: width="150" .right}
 Despite the fright and scolding, the incident taught me a valuable lesson about curiosity and responsibility. Sometimes, our curiosity can lead us into unexpected situations, but it's important to consider the consequences before acting impulsively. Looking back, I can laugh about it now, but in the moment, it was a sobering reminder that even innocent actions can have serious repercussions.

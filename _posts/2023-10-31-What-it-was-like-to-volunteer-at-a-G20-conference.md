@@ -26,3 +26,5 @@ On top of it all, I had a great experience being a liaison officer with other st
 
 ![MrDevanshRastogiInTheBallroom](MrDevanshRastogiInTheBallroom.jpeg){: w="400" .shadow}
 _That young, shy me being camera-conscious_
+
+![FromTheLibraryOfDevansh](../../Global/stamp_FromTheLibraryOfDevansh.png){: width="150" .right}

@@ -14,4 +14,5 @@ Have you ever had a moment where everything seemed to go wrong, but somehow, you
 
 To my surprise, despite the chaos of the situation, I somehow managed to pass the driving test with flying colors! It was a moment of sheer disbelief and relief. Looking back, I realize that sometimes life throws unexpected challenges our way, but it's how we respond to them that truly matters. Instead of letting the setback derail me, I chose to persevere and ended up succeeding against the odds.
 
+![FromTheLibraryOfDevansh](../../Global/stamp_FromTheLibraryOfDevansh.png){: width="150" .right}
 This experience taught me an important lesson about resilience and determination. No matter what obstacles we face, it's possible to overcome them with the right attitude and effort. So, the next time you find yourself in a tough spot, remember my story and know that even in the face of adversity, success is still within reach.

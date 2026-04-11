@@ -33,3 +33,5 @@ It was a real pleasure attending IMC 2022.
 
 ![LongShot](LongShot.jpeg){: .shadow}
 _A behind the scenes look_
+
+![FromTheLibraryOfDevansh](../../Global/stamp_FromTheLibraryOfDevansh.png){: width="150" .right}

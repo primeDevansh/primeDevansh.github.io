@@ -1,8 +1,8 @@
 ---
 title: "What is sucess?"
 date: 2026-04-11 23:11 +530
-categories: [Technology, Tutorial] # thoughts can be another category
-tags: [troubleshooting, networking, linux] # make sure its always lower case
+categories: [Mindset] # thoughts can be another category
+tags: [success, personal-development, philosophy] # make sure its always lower case
 media_subpath: /assets/Posts/2026-04-11-What-is-success/
 image: 
   lqip: CoverPicture.webp

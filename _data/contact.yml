@@ -7,9 +7,9 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://linkedin.com/in/rastogidevansh' # Fill with your Linkedin homepage
 
-- type: instagram
-  icon: "fa-brands fa-instagram"
-  url: "https://instagram.com/devanshrastogi01"
+# - type: instagram
+#   icon: "fa-brands fa-instagram"
+#   url: "https://instagram.com/devanshrastogi01"
   
 - type: twitter
   icon: "fa-brands fa-x-twitter"
